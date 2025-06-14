@@ -1,8 +1,8 @@
 # **Dokumentacja Seelen**
 
-Witamy w oficjalnym centrum dokumentacji **Aplikacje Seelen**.\
+Witamy w oficjalnym centrum dokumentacji **aplikacji Seelen**.\
 Nasze narzędzia są zaprojektowane tak, aby były _wysoce konfigurowalne_,
-_modułowy_, I _dający się przystosować_ do twojego przepływu pracy.
+_modułowe_ i _dające się przystosować_ do twojego stylu pracy.
 
 ## Przegląd
 
@@ -20,5 +20,5 @@ _modułowy_, I _dający się przystosować_ do twojego przepływu pracy.
 
 ## Wsparcie
 
-- [Niezgoda](https://discord.gg/ABfASx5ZAJ) (wsparcie techniczne i społeczność)
+- [Discord](https://discord.gg/ABfASx5ZAJ) (wsparcie techniczne i społeczność)
 - [Github](https://github.com/Seelen-Inc) (śledzenie kodu i problemów)

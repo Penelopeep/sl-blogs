@@ -5,58 +5,59 @@
 ### Microsoft Store (MSIX)
 
 Pobierz najnowszą wersję z [Microsoft Store](https://www.microsoft.com/store).
-To jest najbezpieczniejsze i Opcja przyjazna dla użytkownika z automatycznymi
+To jest najbezpieczniejsza opacja, przyjazna dla użytkownika z automatycznymi
 aktualizacjami.
 
-**Profesjonaliści:**
+**Zalety:**
 
 - Automatyczne aktualizacje
 - Zweryfikowane i zatwierdzone przez Microsoft
 - Wysokie bezpieczeństwo i niezawodność
-- Lżejsza wersja niż instalator .exe (bez symboli debugowania)
+- Mniejsza wielkość plików niż z instalatora .exe (bez symboli debugowania)
 
 **Wady:**
 
 - Aktualizacje mogą zająć 1-3 dni robocze do zatwierdzenia Microsoft
-- Trudniejsze do debugowania i zgłoszenia problemów
+- Trudniejsza do debugowania i zgłaszania problemów
 
 ---
 
-### Wining (MSIX)
+### Winget (MSIX)
 
 Zainstaluj najnowszą wersję za pomocą następującego polecenia:
 
-> instalacja Winget --D Seelen.seelenui
+> winget install --id Seelen.SeelenUI
 
-Oferuje takie same korzyści jak wersja sklepu Microsoft z dodanymi Wygoda
-instalacji wiersza poleceń.
+Oferuje takie same korzyści jak wersja sklepu Microsoft z wygodą
+instalacji jedną komendą z wiersza poleceń.
 
 ---
 
-### instalator .exe
+### Instalator .exe
 
-Pobierz instalator instalator setup.exe z
-[Uwalnia stronę](https://github.com/eythaann/Seelen-UI/releases) i uruchom go.
+[//]: # (There's no good translation for "Releases page" in Polish, so I'll change it to "github")
+Pobierz instalator setup.exe z
+[githuba](https://github.com/eythaann/Seelen-UI/releases) i uruchom go.
 
-**Profesjonaliści:**
+**Zalety:**
 
 - Dostępne natychmiastowe aktualizacje
 - Otrzymuje powiadomienia o aktualizacji, gdy tylko nowe wersje zostaną wydane
-- Lepiej do celów debugowania
+- Lepsza do celów debugowania
 
 **Wady:**
 
-- Może wywołać ostrzeżenia antywirusowe (nie podpisane cyfrowo)
-- Większy rozmiar pliku (obejmuje symbole debugowania)
+- Antywirus może oznaczyć ją jako niebezpieczeństwo (przez brak podpisu cyfrowego)
+- Większy rozmiar pliku (zawiera symbole debugowania)
 
 ## Aktualizacja kanałów
 
 > Niezależnie od wybranego kanału aktualizacji, wszystkie wersje odbierają
 > automatyczne aktualizacje. Niestabilne kanały otrzymują również aktualizacje z
 > bardziej stabilnych kanałów (np. Nightly otrzymuje aktualizacje zarówno z
-> nocy, jak i beta/wydania).
+> Nightly, jak i bety/stabilnego wydania).
 
-### Wydanie (stabilne)
+### Stabilne wydanie (Release)
 
 Najbezpieczniejszy i zalecany kanał dla wszystkich użytkowników.
 
@@ -78,7 +79,7 @@ oficjalną wersją.
 - Częstsze aktualizacje niż stabilne
 - Dostępny tylko jako instalator .exe
 
-### Nocny
+### Nightly
 
 Dla zaawansowanych użytkowników i programistów chcą najnowszych zmian.
 
@@ -89,14 +90,14 @@ Dla zaawansowanych użytkowników i programistów chcą najnowszych zmian.
 - Zaktualizowane codziennie lub z każdą znaczącą zmianą kodu
 - Dostępny tylko jako instalator .exe
 
-Dowiedz się więcej o nocnym kanale w naszym
-[Seelen UI Nightly](https://seelen.io/blog/nightly) dokumentacja.
+Dowiedz się więcej o kanale Nightly w naszej dokumentacji:
+[Seelen UI Nightly](https://seelen.io/blog/nightly).
 
 ## Mechanizm aktualizacji: Setup.exe vs MSIX
 
 - **MSIX:** Aktualizacje zarządzane automatycznie przez Microsoft Store
-- **Setup.exe:** Zawiera wbudowany aktualizację, który powiadamia, gdy są
-  aktualizacje dostępny
+- **Setup.exe:** Zawiera wbudowany aktualizator, który powiadamia, gdy są
+  dostępne aktualizacje
 
 ![Seelen UI update notification](https://github.com/Seelen-Inc/slu-blog/blob/master/blog/seelen-ui-distribution-channels/image.png?raw=true)
 

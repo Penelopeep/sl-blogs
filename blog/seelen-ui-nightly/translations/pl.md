@@ -2,47 +2,45 @@
 
 ![Seelen UI Developer Edition](https://github.com/user-attachments/assets/76634b49-7b09-4ef2-9643-e93542309f5d)
 
-## Co to jest nocny kanał?
+## Co to jest kanał Nightly?
 
-Nocny kanał wydania to wyspecjalizowana kompilacja interfejsu użytkownika Seelen
-automatycznie generowane przy każdym nowym zobowiązaniu do `master` oddział. Ten
-Zapewnia, że ​​nocna wersja zawsze zawiera najnowsze zmiany, Funkcje i poprawki
-błędów, nawet jeśli nie przeszły jeszcze szeroko zakrojonych testów.
+Kanał Nightly to wyspecjalizowana kompilacja interfejsu użytkownika Seelen
+automatycznie generowane przy każdej nowej aktualizacji do gałęzi `master`. To
+sprawia, że wersja Nightly zawsze zawiera najnowsze zmiany, funkcje i poprawki
+błędów, nawet jeśli nie przeszły jeszcze dokładnych testów.
 
 ## Warianty wydania
 
 Nocne wydania obejmują dwa różne warianty:
 
-1. **Wersja standardowa** - Regularna kompilacja aplikacji, odpowiednia dla
-   Ogólne testy.
-2. **Wersja debugowania** - zidentyfikowane przez `-debug` sufiks (np.
+1. **Wersja standardowa** - Regularna kompilacja aplikacji, odpowiednia do ogólnego testowania.
+2. **Wersja debugowania** - Zawierająca sufiks `-debug`  (np.
    `Seelen.UI_2.0.10+20241213134120_x64-setup-debug.exe`), ten wariant jest
-   Zoptymalizowane dla programistów i testerów pracujących nad motywami,
+   zoptymalizowany dla programistów i testerów pracujących nad motywami,
    wtyczkami lub widżetami Kompatybilny z Seelen UI.
 
-## Korzyści
+## Zalety
 
-- **Wczesny dostęp do funkcji** - Przetestuj najnowsze ulepszenia, zanim dotrą
+- **Wczesny dostęp do funkcji** - Przetestuj najnowsze aktualizacje, zanim dotrą
   do stabilne wydania.
 - **Proaktywne raportowanie problemów** - Pomóż zidentyfikować i rozwiązać błędy
-  na początku Cykl rozwoju.
+  na początku cyklu rozwoju.
 - **Szybkie informacje zwrotne** - Przyczyniaj się do udoskonalenia interfejsu
-  użytkownika Seelen, dostarczając Spostrzeżenia w czasie rzeczywistym.
+  użytkownika Seelen, dostarczając spostrzeżenia w czasie rzeczywistym.
 
-## Ograniczenia
+## Wady
 
-- **Potencjalna niestabilność** - Nocne kompilacje mogą obejmować niedokończone
+- **Potencjalna niestabilność** - Kompilacje Nightly mogą obejmować niedokończone
   funkcje lub nierozwiązane błędy.
-- **Nie zalecane do produkcji** - Te kompilacje są przeznaczone do testowania
-  tylko cele i nie powinny być używane w krytycznych środowiskach.
+- **Nie zalecane do użytku codziennego** - Te kompilacje są przeznaczone do testowania i nie powinny być używane w krytycznych środowiskach.
 
-## Jak włączyć nocny kanał
+## Jak włączyć kanał Nightly
 
-Aby przejść na nocny kanał wydania:
+Aby przejść na kanał Nightly:
 
-1. Otwarte **Ustawienia** > **Dodatki** Lub **Informacja** > **Kanał
+1. Otwórz **Ustawienia** > **Dodatki** Lub **Informacje** > **Kanał
    aktualizacji**.
-2. Wybierać **Nocny** Z dostępnych opcji.
+2. Wybierz **Nightly** Z dostępnych opcji.
 
 ![Seelen UI How to Enable Nightly Channel](https://github.com/user-attachments/assets/ae88aeac-98cc-4424-a9e7-fb59740b694e)
 
@@ -55,6 +53,4 @@ Aby przejść na nocny kanał wydania:
 ---
 
 **Notatka:** Jeśli napotkasz jakiekolwiek problemy, zgłoś je za pośrednictwem
-[Problemy github](https://github.com/eythaann/Seelen-UI/issues) lub
-[Kanał wsparcia niezgody](https://discord.gg/ABfASx5ZAJ). Twoja opinia pomaga
-Popraw interfejs UI Seelen!
+[problemów github](https://github.com/eythaann/Seelen-UI/issues) lub na [kanale wsparcia Discord](https://discord.gg/ABfASx5ZAJ). Twoja opinia pomaga poprawiać interfejs UI Seelen!

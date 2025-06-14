@@ -1,15 +1,14 @@
-# **Biblioteka SLU: typy i interfejsy**
+# **Biblioteka SLU: Typy i interfejsy**
 
-. `types` Moduł biblioteki SLU zapewnia kolekcję niezbędnego typu Definicje i
-interfejsy, które służą jako podstawa rozwoju widżetu. Ten moduł jest
-zaprojektowany do:
+Moduł `types` biblioteki SLU zapewnia kolekcję definicji niezbędnych typów i
+interfejsów, które służą jako podstawa do tworzenia widżetów. Ten moduł oferuje:
 
-- Oferuj znormalizowane definicje typów używane w ekosystemie UIelen UI
-- Zapewnij interfejsy do spójnej implementacji widżetu
-- Włącz bezpieczeństwo typu w ramach rozwoju widżetu
-- Służyć jako wspólne umowy między podstawową aplikacją a widżetami
+- Znormalizowane definicje typów używane w ekosystemie Seelen UI
+- Zapewnia interfejsy do spójnej implementacji widżetu
+- Gwarantuje bezpieczeństwo typów w podczas rozwoju widżetu
+- Służy jako wspólna komunikacja między podstawową aplikacją a widżetami
 
-## **Stosowanie**
+## **Zastosowanie**
 
 ```ts
 import { StructInterface } from "@seelen-ui/lib/types";
@@ -21,10 +20,10 @@ const myObject: StructInterface = { ... }
 
 - **Definicje typów podstawowych**: Podstawowe typy używane przez aplikację
   Seelen UI
-- **Umowy widżetu**: Interfejsy, które widżety muszą zaimplementować, aby
+- **Komunikacja widżetów**: Interfejsy, które widżety muszą zaimplementować, aby
   uzyskać kompatybilność
 - **Udostępnione modele**: Wspólne struktury danych używane na platformie
-- **Narzędzia typu**: Typy pomocników do rozwoju widżetów
+- **Narzędzia typu**: Typy pomocnicze do rozwoju widżetów
 
-Te typy są konsumowane zarówno wewnętrznie przez zastosowanie, jak i narażone na
-zewnętrzni deweloperzy widżetów, aby zapewnić spójność typu w całym ekosystemie.
+Te typy są używane zarówno wewnętrznie przez aplikację, jak i udostępniane
+zewnętrznym deweloperom widżetów, aby zapewnić spójność typów w całym ekosystemie.

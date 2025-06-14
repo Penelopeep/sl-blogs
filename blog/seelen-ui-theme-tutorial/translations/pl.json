@@ -1,11 +1,16 @@
 {
+  "title": "Seelen UI: Samouczek dotyczący podstaw motywów",
+  "description": "Dowiedz się, jak utworzyć motyw dla Seelen UI",
+  "author": "eythaann",
+  "publishedAt": "10-04-2025",
+  "lastRevisionAt": "14-06-2025",
   "keywords": [
     "Seelen UI",
     "Motywy interfejsu użytkownika Seelen",
     "niestandardowe motywy Windows",
     "Samouczek dotyczący motywu Windows 11",
     "Zestaw narzędzi do projektowania interfejsu użytkownika",
-    "Jak motywować Seelen UI",
+    "Jak zmieniać motywy Seelen UI",
     "Dostosowanie interfejsu użytkownika Seelen",
     "Najlepsze motywy interfejsu użytkownika dla systemu Windows",
     "lekki zestaw narzędzi UI",
@@ -30,10 +35,5 @@
     "Najlepsze motywy dla produktywności",
     "Motywy społecznościowe Seelen UI",
     "Trendy w projektowaniu interfejsu użytkownika Windows 2024"
-  ],
-  "title": "Seelen UI: Samouczek dotyczący podstaw motywów",
-  "description": "Dowiedz się, jak utworzyć motyw dla Seelen UI",
-  "author": "eythaann",
-  "publishedAt": "10-04-2025",
-  "lastRevisionAt": "10-04-2025"
+  ]
 }

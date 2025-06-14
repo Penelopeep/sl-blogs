@@ -1,17 +1,16 @@
-# **Biblioteka SLU: Odniesienie API**
+# **Biblioteka SLU: API**
 
-Moduł API zapewnia konkretne implementacje i klasy użyteczności streszczenie
-interfejsy API aplikacji surowego, służąc jako elewacja przyjazna dla
-programistów Integracja widżetu.
+Moduł API zapewnia konkretne implementacje i klasy pomocnicze, które upraszczają dostęp do surowego API, służąc jako wygodna alternatywa dla
+twórców widżetów.
 
-## **Zamiar**
+## **Przeznaczenie**
 
-- Wdraża interfejsy z `/types` z gotowymi do użycia zajęć
-- Streszczenie złożoności API niskiego poziomu
-- Zapewnia metody użyteczności dla wspólnych operacji
-- Służy jako podstawowa warstwa interakcji między widżetami i SLU aplikacja
+- Wdraża interfejsy z `/types` z klasami gotowymi do użycia
+- Ukrywa złożone API niskiego poziomu
+- Zapewnia metody dla często wykonywanych operacji
+- Służy jako podstawowa warstwa interakcji między widżetami i aplikacją SLU
 
-## **Stosowanie**
+## **Zastosowanie**
 
 W razie potrzeby możesz użyć biblioteki. Oto podstawowy przykład:
 
@@ -27,8 +26,7 @@ await widgetApi.doSomething();
 
 ## **Ważne notatki:**
 
-1. Ta biblioteka API działa tylko przy uruchomieniu w wykonaniu widżetu
-   interfejsu użytkownika środowisko
-2. Próba użycia go w Node.js lub standardowe konteksty przeglądarki będą błędy
-3. Widżety korzystające z tego interfejsu API muszą go zaktualizować, aby
-   działać poprawnie Ostatnia wersja Seelen UI
+1. Ta biblioteka API działa tylko w środowisku wykonawczym widżetów Seelen UI
+2. Przy próbie użycia go w Node.js lub w przeglądarce wystąpią błędy
+3. Widżety korzystające z tego API muszą być zaktualizowane, aby działały poprawnie z
+   najnowszą wersją Seelen UI

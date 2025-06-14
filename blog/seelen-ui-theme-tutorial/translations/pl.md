@@ -1,47 +1,43 @@
-# Seelen UI: Samouczek podstawowych podstaw - Dostosuj swój pulpit jak profesjonalista!
+# Seelen UI: Samouczek podstaw - Dostosuj swój pulpit jak profesjonalista!
 
 ![A beautifully customized desktop using Seelen UI themes](https://raw.githubusercontent.com/Seelen-Inc/sl-blogs/refs/heads/master/blog/seelen-ui-theme-tutorial/image.png)
 
 Chcesz nadać swojemu komputerowi systemu Windows nowy nowy wygląd? Seelen UI
-ułatwia to jego potężny system motywu. Ten przewodnik poprowadzi Cię przez
-podstawy, jak Tematy działają - brak doświadczenia kodowania!
+ułatwia to dzięki jego potężnemu systemu motywów. Ten przewodnik poprowadzi Cię przez
+podstawy, jak działają motywy - brak znajomości kodowania!
 
 ## Specjalna wersja debugowania dla twórców motywów
 
-Zanim zaczniemy, twórcy motywów powinni wiedzieć o naszym specjalnym **wersja
-debugowania** Seelen UI! Ta wersja pozwala ci:
+Zanim zaczniemy, twórcy motywów powinni wiedzieć o naszej specjalnej **debugowalnej wersji** Seelen UI! Ta wersja pozwala ci:
 
-- Sprawdź elementy, podobnie jak strona internetowa (CTRL+Shift+I Otwiera
-  narzędzia programistów)
-- Zobacz Live HTML/CSS Zmiany
-- Natychmiastowe modyfikacje motywu testu
-- Łatwe problemy z stylem debugowania
+- Sprawdź elementy, podobnie jak przeglądarka internetowa (CTRL+Shift+I Otwiera narzędzia deweloperskie)
+- Zobacz zmiany HTML/CSS na żywo
+- Testuj natychmiastowe modyfikacje motywu
+- Łatwo debuguj problemy z stylowaniem
 
-Pobierz wersję debugowania z naszej
-[Nocne uwalnia kanał](https://seelen.io/apps/seelen-ui/releases/nightly)
+Pobierz wersję debugowania z naszego kanału [nightly](https://seelen.io/apps/seelen-ui/releases/nightly)
 (Poszukaj plików kończących się `-debug.exe`, tak jak
 `Seelen.UI_2.2.8+20250410073056_x64-setup-debug.exe`).
 
-### Chcesz dowiedzieć się więcej o nocnych kompilacjach?
+### Chcesz dowiedzieć się więcej o kompilacjach Nightly?
 
-Sprawdź nasze
-[Wyjaśnione nocne kompilacje](https://seelen.io/blog/seelen-ui-nightly) artykuł!
+Sprawdź nasz artykuł odnośnie [kompilacji nightly](https://seelen.io/blog/seelen-ui-nightly)!
 
 ## Zrozumienie plików motywów
 
 Pomyśl o motywach UI Seelen, takich jak warstwy farby. Możesz zastosować wiele
-motywów pod adresem Raz i po prostu malowanie, zamówienie ma znaczenie! Tematy
-mogą wszystko zmienić Od kolorów po style okien.
+motywów naraz i tak jak z farbą, kolejność ma znaczenie! Motywy
+mogą wszystko zmienić od kolorów po style okien.
 
 Istnieją trzy sposoby, w jakie można pakować tematy:
 
 1. **Motyw pojedynczego pliku** (plik .yml)
 2. **Folder motywu** (zawiera wiele plików)
-3. **Motyw skompresowany** (Plik .slu - specjalny format interfejsu użytkownika)
+3. **Motyw skompresowany** (Plik .slu - specjalny format Seelen UI)
 
 ### Gdzie umieścić swoje motywy
 
-Wszystkie motywy trafiają w ten folder na komputerze:
+Wszystkie motywy umieść w tym folder na komputerze:
 
 ```text
 C:\Users\{YOUR_USERNAME}\AppData\Roaming\com.seelen.seelen-ui\themes
@@ -64,15 +60,13 @@ C:\Users\{USER}\AppData\Roaming\com.seelen.seelen-ui\themes
 
 ## Inspiracja: przykładowe motywy
 
-Nie wiesz, od czego i jak zacząć? Seelen UI ma kilka wbudowanych motywów Może
-użyć jako inspiracji! Sprawdź
-[Domyślna kolekcja motywów](https://github.com/eythaann/Seelen-UI/tree/master/static/themes)
-Aby zobaczyć, jak są stworzone.
+Nie wiesz, od czego i jak zacząć? Seelen UI ma kilka wbudowanych motywów, które możesz użyć jako inspiracji! 
+Sprawdź [domyślną kolekcję motywów](https://github.com/eythaann/Seelen-UI/tree/master/static/themes),
+aby zobaczyć, jak są stworzone.
 
 ## Praca z kolorami - jest to łatwiejsze niż myślisz!
 
-Seelen interfejs użytkownika automatycznie podnosi kolor akcentu Windows i robi
-to Dostępne w różnych odcieniach poprzez proste zmienne kolorów.
+Seelen UI automatycznie pobiera kolor akcentu Windows i tworzy paletę kolorów podobnych do niego do twojej dyspozycji.
 
 ### Twój główny kolor akcentu
 
@@ -97,10 +91,9 @@ Oto pełna lista dostępnych kolorów:
 - Lżejsza wersja: `--config-accent-lighter-color`
 - Najlżejsza wersja: `--config-accent-lightest-color`
 
-Każdy kolor ma również wersję RGB (z -rgb na końcu). To jest przydatne dla
-Tworzenie gradientów i innych efektów kolorów.
+Każdy kolor ma również wersję RGB (z -rgb na końcu). To jest przydatne do tworzenia gradientów i innych efektów kolorów.
 
-Jako przykładowe ustawienia kolor tła z krycie:
+Jako przykładowe ustawienia kolor tła z przeźroczystością:
 
 ```css
 background-color: rbga(var(--config-accent-darkest-color-rgb), 0.5);
@@ -108,10 +101,8 @@ background-color: rbga(var(--config-accent-darkest-color-rgb), 0.5);
 
 ### Jeszcze więcej opcji kolorów
 
-Chcesz więcej wyborów kolorów? Seelen UI odsłania dziesiątki dodatkowych kolorów
-systemu. Sprawdź to
-[Przydatne odniesienie do kolorów](https://gist.github.com/eythaann/cd9a3cda0206ce23a17f5ea00ec2ba06)
-Dla wszystkich dostępnych opcji.
+Potrzebujesz większy wybór kolorów? Seelen UI dostarcza dziesiątki dodatkowych kolorów
+systemu. Sprawdź [przydatną notkę odnośnie kolorów](https://gist.github.com/eythaann/cd9a3cda0206ce23a17f5ea00ec2ba06), dla wszystkich dostępnych opcji.
 
-Wskazówka: Gdy zmienia się kolor systemu Windows, aktualizacje motywu SEELEN
+Wskazówka: Gdy zmienia się kolor systemu Windows, aktualizacje motywu Seleen UI są wykonywane
 automatycznie!

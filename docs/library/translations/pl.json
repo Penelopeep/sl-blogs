@@ -1,4 +1,10 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Seelen-Inc/sl-blogs/refs/heads/master/metadata.schema.json",
+  "title": "Przegląd biblioteki Seelen UI",
+  "description": "Oficjalny zestaw narzędzi programistycznych do tworzenia widżetów i rozszerzeń dla Seelen UI (slu-lib)",
+  "author": "Seelen",
+  "publishedAt": "2025-06-06",
+  "lastRevisionAt": "2025-06-14",
   "keywords": [
     "biblioteka seelen ui",
     "slu-lib",
@@ -8,11 +14,5 @@
     "dokumenty seelen",
     "seelen ui toolkit",
     "tworzenie widżetów seelen"
-  ],
-  "$schema": "https://raw.githubusercontent.com/Seelen-Inc/sl-blogs/refs/heads/master/metadata.schema.json",
-  "title": "Przegląd biblioteki Seelen UI",
-  "description": "Oficjalny zestaw narzędzi programistycznych do tworzenia widżetów i rozszerzeń dla Seelen UI (slu-lib)",
-  "author": "Seelen",
-  "publishedAt": "2025-06-06",
-  "lastRevisionAt": "2025-06-06"
+  ]
 }
